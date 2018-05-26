@@ -1,0 +1,22 @@
+{
+  "name": "nasapicsscratch",
+  "version": "1.0.0",
+  "description": "Attempting to make a full stack app that accesses the NASA api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellooimkat/NasaPicsScratch.git"
+  },
+  "keywords": [
+    "nasa"
+  ],
+  "author": "Cat Ligad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellooimkat/NasaPicsScratch/issues"
+  },
+  "homepage": "https://github.com/hellooimkat/NasaPicsScratch#readme"
+}
