@@ -1,5 +1,5 @@
 ### API KEY ###
-client/config.js
+server/apiKey.js
 
 ### NODE ###
 node_modules
