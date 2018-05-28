@@ -10,10 +10,17 @@ var imageSchema = mongoose.Schema({
 
 var Image = mongoose.model('Image', imageSchema);
 
-module.exports = (link) => {
+var saveAndFind = (link) => {
   const nasaImg = new Image();
   const data = {link: link};
   Image.findOneAndUpdate(data, data, {upsert: true});
   return Image.find(data);
 }
+
+var find = () => {
+  return Image.find({});
+}
+
+module.exports.saveAndFind = saveAndFind;
+module.exports.find = find;
 

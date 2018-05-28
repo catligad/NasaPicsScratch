@@ -25,6 +25,7 @@ export default class App extends Component{
   render(){
     return(
       <div className='holder'>
+        <div className = 'title'> Nasa Image Bookmarker </div>
         <SearchBar click={this.searchBarClick} />
       </div>
     )

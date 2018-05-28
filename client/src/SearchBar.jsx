@@ -5,6 +5,7 @@ export default class SearchBar extends Component {
     super(props);
     this.state={
       text:'',
+      
     }
   }
 
@@ -25,8 +26,8 @@ export default class SearchBar extends Component {
           className='search' 
           placeholder='search for pics here!'
           onChange={this.changeHandler}></input>
-      <div className='submit'
-           onClick={this.clickHandler}>SUBMIT</div>
+      <span className='submit'
+           onClick={this.clickHandler}>SUBMIT</span>
       </div>
     )
   }
