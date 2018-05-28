@@ -13,6 +13,7 @@ var Image = mongoose.model('Image', imageSchema);
 module.exports = (link) => {
   const nasaImg = new Image();
   const data = {link: link};
-  return Image.findOneAndUpdate(data, data, {upsert: true});
+  Image.findOneAndUpdate(data, data, {upsert: true});
+  return Image.find(data);
 }
 
